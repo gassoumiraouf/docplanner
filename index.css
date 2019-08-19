@@ -1,0 +1,173 @@
+body{
+    font-family: sans-serif;
+}
+.nav-logo{
+    height: 50px;
+    width: 150px
+}
+a {
+    text-decoration: none;
+    color: #747474;
+    padding: 0 0.6em;
+}
+ul {
+    display: flex;
+    margin: 0 2px;
+    padding: 0;
+    list-style-type: none
+}
+.visited-link {
+    color: #00bfa5
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    
+}
+.logo-image{
+    display:flex;
+    justify-content: space-around
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    color: #00bfa5;
+    font-size: 2em
+}
+.introduction{
+    display: flex;
+    align-content: center;
+    color: #747474;
+}
+.paragraph{
+    margin: 20px ;
+    line-height: 200%
+
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5em;
+    padding: 20px;
+   
+}
+.boxes div {
+    padding: 1px;
+    border-radius: 5px;
+    margin: 15px;
+    position: relative;
+    
+  
+
+}
+.box-1{
+    background-color: #00ccb1;
+}
+.box-2{
+    background-color: #3d83df;
+}
+
+.box-title{
+    font-size: 0.5em;
+    color: hsla(0,0%,100%,.7);
+}
+.country-selector{
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase
+      
+}
+    .box-image{
+      width: 400px;
+      height: 400px;
+  
+       
+    }
+  
+  
+
+.boxes img{
+    position: absolute;
+    bottom: -40px;
+    right:-40px;
+    height: 250px;
+    width: 350px;  
+}
+.global-culture {
+    display: flex;
+    justify-content: space-around;
+    color: #747474
+}
+.global-culture a:hover{
+    color: #00bfa5;
+}
+.culture{
+    color: #00bfa5;
+
+}
+.links-languages svg{
+    color: #747474
+}
+.health-care {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-image: url("https://www.docplanner.com/img/sygnet.png");
+    background-size:400px 400px;
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+    background-position-x: 100px;
+    background-color: #daf7f6;
+    font-size: 80%
+}
+.health-care h1,h2{
+    color: #00bfa5
+}
+
+.box-details {
+    display: flex;
+}
+.box-details div div{
+    background-color: white;
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px
+}
+
+.appoinment-unique-patient {
+    display: flex;
+    flex-direction: column;
+}
+.doctors-unique-patient{
+    display: flex;
+    flex-direction: column
+
+}
+.world-wide h1{
+    color: #00bfa5;
+}
+.city-1{
+    display: flex;
+    justify-content: space-around
+}
+.city-2{
+    display: flex;
+    justify-content: space-around
+}
+.city div button{
+    float:right;
+    background-color: #3d83df;
+    border-radius: 5px;
+    color: white
+    
+}
+.city div p{
+    float:left;
+}
+
